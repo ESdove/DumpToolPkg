@@ -1,0 +1,11 @@
+<component>
+    name = "DumpToolPkg"
+    category = Flavor
+    LocalRoot = "DumpToolPkg\"
+    RefName = "DumpToolPkg"
+[files]
+"DumpToolPkg.sdl"	
+"DumpToolPkg.dec"	
+[parts]
+"DumpMemoryAttributesTable"
+<endComponent>

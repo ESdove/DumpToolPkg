@@ -1,0 +1,17 @@
+TOKEN
+    Name  = "DumpMemoryAttributesTable_INF_SUPPORT"
+    Value  = "1"
+    Help  = "Main switch to enable DumpMemoryAttributesTable support in Project"
+    TokenType = Boolean
+    TargetMAK = Yes
+    Master = Yes
+End
+
+INFComponent
+    Name  = "DumpMemoryAttributesTable"
+    File  = "DumpMemoryAttributesTable.inf"
+    Package  = "DumpMemoryAttributesTable"
+    ModuleTypes = "UEFI_APPLICATION"
+    Token = "DumpMemoryAttributesTable_INF_SUPPORT" "=" "1"
+End
+

@@ -1,0 +1,8 @@
+TOKEN
+    Name  = "DumpToolPkg_SUPPORT"
+    Value  = "1"
+    Help  = "Main switch to enable DumpToolPkg support in Project"
+    TokenType = Boolean
+    TargetMAK = Yes
+    Master = Yes
+End
